@@ -1,0 +1,21 @@
+{
+  "name": "wikimorabi",
+  "version": "1.0.0",
+  "description": "# Technology 1. Database : MongoDB 2. Framework : ExpressJS 3. Frontend : Reactjs 4. Backend : NodeJs",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd backend && npm install  && cd ../frontend && npm install && npm run build",
+    "start": "node backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snezamha/mern-project-wikimorabi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/snezamha/mern-project-wikimorabi/issues"
+  },
+  "homepage": "https://github.com/snezamha/mern-project-wikimorabi#readme"
+}
